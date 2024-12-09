@@ -1,6 +1,6 @@
 # CPA-Beginner
 
-[English](README.md)|繁體中文
+[English](README.md)｜繁體中文
 
 課程教材存檔。
 

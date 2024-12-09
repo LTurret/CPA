@@ -1,6 +1,6 @@
 # CPA-Beginner
 
-English|[繁體中文](README.zh-TW.md)
+English｜[繁體中文](README.zh-TW.md)
 
 Class learning material archive.
 

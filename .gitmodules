@@ -1,0 +1,6 @@
+[submodule "include/open-huninn-font"]
+	path = include/open-huninn-font
+	url = https://github.com/justfont/open-huninn-font
+[submodule "include/JetBrainsMono"]
+	path = include/JetBrainsMono
+	url = https://github.com/JetBrains/JetBrainsMono

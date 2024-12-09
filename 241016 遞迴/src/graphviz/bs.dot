@@ -1,0 +1,32 @@
+digraph BinarySearchTree {
+    node [shape=record, fontname="Arial"];
+
+    // 根節點
+    "mid_4" [label="{ {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} }"];
+    "mid_4" -> "mid_2";  // 左子樹
+    "mid_4" -> "mid_7";  // 右子樹
+
+    // 左子樹
+    "mid_2" [label="{ {0, 1, 2, 3} }"];
+    "mid_2" -> "mid_1";  // 左子樹
+    "mid_2" -> "invisible_2" [style=invis];  // 隱形節點
+    "mid_2" -> "mid_3";  // 右子樹
+
+    // 右子樹
+    "mid_7" [label="{ {5, 6, 7, 8, 9} }"];
+    "mid_7" -> "mid_6";  // 左子樹
+    "mid_7" -> "invisible_7" [style=invis];  // 隱形節點
+    "mid_7" -> "mid_9";  // 右子樹
+
+    // 中間的節點
+    "mid_1" [label="{ {0} }"];  // Leaf
+    "mid_3" [label="{ {2, 3} }"];  // Leaf
+    "mid_6" [label="{ {5, 6} }"];  // Leaf
+    "mid_9" [label="{ {8, 9} }"];  // Leaf
+
+    // 隱形節點
+    "invisible_2" [label="", shape=point, width=0]; // 隱形節點，位於 mid_2 下方
+    "invisible_7" [label="", shape=point, width=0]; // 隱形節點，位於 mid_7 下方
+
+    edge [arrowhead=vee, color=black];  // 美化箭頭
+}

@@ -1,0 +1,32 @@
+MERGE(A, left, mid, right):
+    // conquer與combine
+    temp = ARRAY OF SIZE (right - left + 1)
+    i = left          // 左子陣列的起始索引
+    j = mid + 1       // 右子陣列的起始索引
+    k = 0             // 排序陣列的索引
+
+    // 比較左、右子陣列的元素，將較小者加入臨時陣列
+    WHILE i <= mid AND j <= right:
+        IF A[i] <= A[j]:
+            temp[k] = A[i]
+            i = i + 1
+        ELSE:
+            temp[k] = A[j]
+            j = j + 1
+        k = k + 1
+
+    // 將左子陣列剩餘的元素加入排序陣列
+    WHILE i <= mid:
+        temp[k] = A[i]
+        i = i + 1
+        k = k + 1
+
+    // 將右子數列剩餘的元素加入排序陣列
+    WHILE j <= right:
+        temp[k] = A[j]
+        j = j + 1
+        k = k + 1
+
+    // 將合併後的元素覆蓋回原陣列 A
+    FOR p FROM 0 TO (k - 1):
+        A[left + p] = temp[p]

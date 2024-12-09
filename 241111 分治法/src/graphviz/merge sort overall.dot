@@ -1,0 +1,59 @@
+digraph {
+    splines=line
+
+    node[shape=box, height=.1];sorted_1 sorted_2 sorted_3 sorted_4 sorted_5 sorted_6;
+    node[shape=record, height=.1];input result divide_31 divide_32 divide_21 divide_22 divide_11 divide_12 merge_1 merge_2 merge_3 merge_4 merge_5 merge_6;
+    node[shape=none];merge_pad
+    
+    input[label="<f0>56|<f1>10|<f2>23|<f3>9|<f4>34|<f5>23"]
+    result[label="<f0>9|<f1>10|<f2>23|<f3>23|<f4>34|<f5>56"]
+    merge_pad[label=""]
+    divide_31[label="<f1>56|<f2>10|<f3>23"]
+    divide_32[label="<f1>9|<f2>34|<f3>23"]
+    divide_21[label="<f1>56|<f2>10"]
+    divide_22[label="<f1>9|<f2>34"]
+    divide_11[label="<f1>23"]
+    divide_12[label="<f1>23"]
+    sorted_1[label="56"]
+    sorted_2[label="10"]
+    sorted_3[label="23"]
+    sorted_4[label="9"]
+    sorted_5[label="34"]
+    sorted_6[label="23"]
+    merge_1[label="<f1>10|<f2>56"]
+    merge_2[label="23"]
+    merge_3[label="<f1>9|<f2>34"]
+    merge_4[label="23"]
+    merge_5[label="<f1>10|<f2>23|<f3>56"]
+    merge_6[label="<f1>9|<f2>23|<f3>34"]
+
+
+    input -> divide_31
+    input -> divide_32
+
+    divide_31 -> divide_21
+    divide_31 -> divide_11
+    divide_32 -> divide_22
+    divide_32 -> divide_12
+    divide_21:f1 -> sorted_1
+    divide_21:f2 -> sorted_2
+    divide_22:f1 -> sorted_4
+    divide_22:f2 -> sorted_5
+    divide_11 -> sorted_3
+    divide_12 -> sorted_6
+    
+    sorted_1 -> merge_1:f2
+    sorted_2 -> merge_1:f1
+    sorted_3 -> merge_2
+    sorted_4 -> merge_3:f1
+    sorted_5 -> merge_3:f2
+    sorted_6 -> merge_4
+    
+    merge_1 -> merge_5
+    merge_2 -> merge_5
+    merge_3 -> merge_6
+    merge_4 -> merge_6
+
+    merge_5 -> result
+    merge_6 -> result
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314pt" height="191pt" viewBox="0.00 0.00 314 191">
+<g id="graph0" class="graph" transform="translate(36.95218221970282,162.79617749792422) scale(0.7578582832551992)" data-name="BinarySearchTree">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-187 310,-187 310,4 -4,4"/>
+<!-- mid_7 -->
+<g id="node7" class="node" pointer-events="visible" data-name="mid_6" data-comment="mid_7">
+
+<polygon fill="none" stroke="black" points="162,-0.5 162,-36.5 216,-36.5 216,-0.5 162,-0.5"/>
+<text text-anchor="middle" x="188.68" y="-14.4" font-family="Arial" font-size="14">5, 6</text>
+</g><g id="node1" class="node" pointer-events="visible" data-name="mid_4" data-comment="mid_7">
+
+<polygon fill="none" stroke="black" points="58.06,-146.5 58.06,-182.5 221.94,-182.5 221.94,-146.5 58.06,-146.5"/>
+<text text-anchor="middle" x="140" y="-160.4" font-family="Arial" font-size="14.00">0, 1, 2, 3, 4, 5, 6, 7, 8, 9</text>
+</g>
+<!-- mid_3 -->
+<g id="node6" class="node" pointer-events="visible" data-name="mid_3">
+
+<polygon fill="none" stroke="black" points="90,-0.5 90,-36.5 144,-36.5 144,-0.5 90,-0.5"/>
+<text text-anchor="middle" x="116.68" y="-14.4" font-family="Arial" font-size="14">2, 3</text>
+</g><g id="node2" class="node" pointer-events="visible" data-name="mid_2" data-comment="mid_3">
+
+<polygon fill="none" stroke="black" points="46.76,-73.5 46.76,-109.5 117.24,-109.5 117.24,-73.5 46.76,-73.5"/>
+<text text-anchor="middle" x="82" y="-87.4" font-family="Arial" font-size="14.00">0, 1, 2, 3</text>
+</g>
+<!-- mid_7&#45;&gt;mid_3 -->
+<g id="edge1" class="edge" data-name="mid_4-&gt;mid_2" data-comment="mid_7-&gt;mid_3">
+
+<path fill="none" stroke="black" d="M126.25,-146.67C119.25,-138.1 110.58,-127.49 102.78,-117.94"/>
+<polygon fill="black" stroke="black" points="105.64,-115.91 96.6,-110.38 100.22,-120.34 105.64,-115.91"/>
+</g>
+<!-- mid_11 -->
+<g id="node3" class="node" pointer-events="visible" data-name="mid_7" data-comment="mid_11">
+
+<polygon fill="none" stroke="black" points="167.98,-73.5 167.98,-109.5 254.02,-109.5 254.02,-73.5 167.98,-73.5"/>
+<text text-anchor="middle" x="211" y="-87.4" font-family="Arial" font-size="14.00">5, 6, 7, 8, 9</text>
+</g>
+<!-- mid_7&#45;&gt;mid_11 -->
+<g id="edge2" class="edge" data-name="mid_4-&gt;mid_7" data-comment="mid_7-&gt;mid_11">
+
+<path fill="none" stroke="black" d="M156.83,-146.67C165.67,-137.83 176.67,-126.83 186.45,-117.05"/>
+<polygon fill="black" stroke="black" points="188.63,-119.82 193.22,-110.28 183.68,-114.87 188.63,-119.82"/>
+</g>
+<!-- mid_1 -->
+<g id="node4" class="node" pointer-events="visible" data-name="mid_1">
+
+<polygon fill="none" stroke="black" points="0,-0.5 0,-36.5 54,-36.5 54,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="26.89" y="-14.4" font-family="Arial" font-size="14">0</text>
+</g>
+<!-- mid_3&#45;&gt;mid_1 -->
+<g id="edge3" class="edge" data-name="mid_2-&gt;mid_1" data-comment="mid_3-&gt;mid_1">
+
+<path fill="none" stroke="black" d="M68.97,-73.67C62.39,-65.19 54.27,-54.71 46.93,-45.23"/>
+<polygon fill="black" stroke="black" points="49.76,-43.16 40.87,-37.4 44.22,-47.45 49.76,-43.16"/>
+</g>
+<!-- mid_5 -->
+
+<!-- mid_3&#45;&gt;mid_5 -->
+<g id="edge5" class="edge" data-name="mid_2-&gt;mid_3" data-comment="mid_3-&gt;mid_5">
+
+<path fill="none" stroke="black" d="M90.29,-73.67C94.3,-65.54 99.22,-55.58 103.73,-46.42"/>
+<polygon fill="black" stroke="black" points="106.81,-48.08 108.1,-37.56 100.53,-44.98 106.81,-48.08"/>
+</g>
+<!-- mid_9 -->
+<!-- mid_9 -->
+<g id="node9" class="node" pointer-events="visible" data-name="mid_9">
+
+<polygon fill="none" stroke="black" points="252,-0.5 252,-36.5 306,-36.5 306,-0.5 252,-0.5"/>
+<text text-anchor="middle" x="278.68" y="-14.4" font-family="Arial" font-size="14">8, 9</text>
+</g><g id="node5" class="node" pointer-events="visible" data-name="invisible_2" data-comment="mid_9">
+
+<ellipse fill="black" stroke="black" cx="72" cy="-18.5" rx="0" ry="0"/>
+</g>
+<!-- mid_11&#45;&gt;mid_9 -->
+<g id="edge6" class="edge" data-name="mid_7-&gt;mid_6" data-comment="mid_11-&gt;mid_9">
+
+<path fill="none" stroke="black" d="M205.79,-73.67C203.32,-65.72 200.31,-56.01 197.53,-47.02"/>
+<polygon fill="black" stroke="black" points="200.93,-46.17 194.62,-37.65 194.24,-48.24 200.93,-46.17"/>
+</g>
+<!-- mid_13 -->
+
+<!-- mid_11&#45;&gt;mid_13 -->
+
+<!-- mid_7&#45;&gt;mid_9 -->
+<g id="edge8" class="edge" data-name="mid_7-&gt;mid_9">
+
+<path fill="none" stroke="black" d="M227.12,-73.67C235.5,-64.92 245.91,-54.05 255.2,-44.35"/>
+<polygon fill="black" stroke="black" points="257.56,-46.94 261.95,-37.3 252.51,-42.1 257.56,-46.94"/>
+</g>
+
+<!-- invisible_7 -->
+<g id="node8" class="node" pointer-events="visible" data-name="invisible_7">
+
+<ellipse fill="black" stroke="black" cx="234" cy="-18.5" rx="0" ry="0"/>
+</g>
+<!-- mid_7&#45;&gt;invisible_7 --></g>
+</svg>

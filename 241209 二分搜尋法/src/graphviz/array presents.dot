@@ -1,0 +1,14 @@
+digraph {
+    splines=line;
+    ranksep=0.2;
+    nodesep=0.1;
+
+    node[shape=record, height=.1]; arr1 arr2 result
+
+    arr1[label="<f0>10|<f1>10|<f2>10|<f3>10|<f4>10|<f5>10"];
+    arr2[label="<f0>20|<f1>20|<f2>20|<f3>20|<f4>20|<f5>20"];
+    result[label="<f0>30|<f1>30|<f2>30|<f3>30|<f4>30|<f5>30"];
+
+    arr1 -> arr2[style=invis, minlen=1];
+    arr2 -> result[style=invis, minlen=1];
+}

@@ -1,28 +1,33 @@
 # CPA-Beginner
 
-課程教材存檔。
+English|[繁體中文](README.zh-TW.md)
 
-## 日程
+Class learning material archive.
 
-| 日期   | 時間        | 內容   |
-|--------|-------------|--------|
-| 10/16  | 18:30–20:30 | 遞迴   |
-| 11/11  | 18:30–20:30 | 分治法 |
-| 11/25  | 18:30–20:30 | 前綴和 |
-| 12/09  | 18:30–20:30 | 二分搜 |
+## Schedule
 
-## 字體
+| Date  | Time        | Content            |
+|-------|-------------|--------------------|
+| 10/16 | 18:30–20:30 | Recursion          |
+| 11/11 | 18:30–20:30 | Divide and Conquer |
+| 11/25 | 18:30–20:30 | Prefix Sum         |
+| 12/09 | 18:30–20:30 | Binary Search      |
 
-本專案使用以下開源字體：
+## Fonts
 
-- **jf open 粉圓**：由 justfont 設計，基於 Kosugi Maru 和 Varela Round，針對台灣日常應用優化的開源繁體中文字型。依據 [SIL Open Font License 1.1](https://github.com/justfont/open-huninn-font/blob/master/LICENSE) 授權釋出。
+This repository uses the following open source fonts:
 
-- **JetBrains Mono**：由 JetBrains 設計，專為開發者打造的免費開源等寬字型，提升程式碼的可讀性。依據 [SIL Open Font License 1.1](https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt) 授權釋出。
+1. [open-huninn-font](https://github.com/justfont/open-huninn-font)
+2. [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono)
 
-## 授權
+## License
 
-![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
+1. [CPA](https://github.com/LTurret/CPA) © 2024 by [LTurret](https://github.com/LTurret) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1).
 
-[CPA](https://github.com/LTurret/CPA) © 2024 by [LTurret](https://github.com/LTurret) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1).
+   ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
 
-專案中部分程式碼採用 [MIT 授權條款](./LICENSE)。
+2. Parts of the code are licensed under the [MIT license](./LICENSE).
+
+3. **jf open huninn**: Designed by justfont, this is an open-source Traditional Chinese font optimized for daily use in Taiwan. It is based on Kosugi Maru and Varela Round. Released under the [SIL Open Font License 1.1](https://github.com/justfont/open-huninn-font/blob/master/LICENSE).
+
+4. **JetBrains Mono**: Designed by JetBrains, this is a free, open-source monospaced font specifically tailored for developers, enhancing the readability of code. Released under the [SIL Open Font License 1.1](https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt).

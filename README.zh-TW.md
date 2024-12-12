@@ -4,6 +4,9 @@
 
 課程教材存檔。
 
+> [!TIP]
+> $\text{Cola} = 1.5\times\text{Input}$
+
 ## 日程
 
 | 日期  | 時間        | 內容   |

@@ -4,6 +4,9 @@ English｜[繁體中文](README.zh-TW.md)
 
 Class learning material archive.
 
+> [!TIP]
+> $\text{Cola} = 1.5\times\text{Input}$
+
 ## Schedule
 
 | Date  | Time        | Content            |
